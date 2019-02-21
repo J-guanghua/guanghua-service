@@ -74,5 +74,10 @@ return [
                 ['0.0.0.0', 9053]
             ]
         ]
-    ]
+    ],
+     'modules' => [//多平台 客服接入模块
+        'kfservice' => [
+            'class' => 'backend\modules\kfservice\Module',
+        ],
+    ],
 ];
